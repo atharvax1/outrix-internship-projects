@@ -1,0 +1,11 @@
+# Titanic Survival Prediction
+
+This project focuses on predicting the survival of passengers during the RMS Titanic disaster using machine learning techniques. The objective is to analyze passenger data and build a predictive model that determines whether a passenger survived or not based on various features such as age, gender, ticket class, fare, and family size.
+
+The dataset used for this project contains information about passengers aboard the Titanic, including both categorical and numerical attributes. The project begins with data preprocessing, where missing values are handled, categorical variables are encoded, and irrelevant features are removed to improve model performance. Exploratory Data Analysis (EDA) is performed to identify patterns and relationships between features and survival rates.
+
+Feature engineering plays a crucial role in enhancing the model’s predictive capability. New features such as family size and title extraction are derived to better represent the data. After preprocessing, the dataset is split into training and testing sets to evaluate model performance effectively.
+
+Multiple machine learning algorithms are implemented, including Logistic Regression and Decision Tree Classifier. These models are trained on the dataset and evaluated using performance metrics such as accuracy. The Logistic Regression model achieved an accuracy of approximately 80%, while the Decision Tree model achieved around 70%, indicating a strong baseline performance.
+
+This project demonstrates a complete machine learning workflow, from data cleaning and visualization to model building and evaluation. It highlights practical skills in Python, Pandas, NumPy, and Scikit-learn, and showcases the ability to solve real-world classification problems using structured and efficient approaches.
